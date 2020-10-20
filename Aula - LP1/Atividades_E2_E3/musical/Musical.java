@@ -2,17 +2,18 @@ package musical;
 
 public class Musical {
 
-		private String tipo_instrumento;
+		private String nome;
 		private String instrumento;
-		private String ritmo;
+		private String id;
+	
 		
 		
 		
-		public String getTipo_instrumento() {
-			return tipo_instrumento;
+		public String getNome() {
+			return nome;
 		}
-		public void setTipo_instrumento(String tipo_instrumento) {
-			this.tipo_instrumento = tipo_instrumento;
+		public void setNome(String nome) {
+			this.nome= nome;
 		}
 		public String getInstrumento() {
 			return instrumento;
@@ -20,22 +21,30 @@ public class Musical {
 		public void setInstrumento(String instrumento) {
 			this.instrumento = instrumento;
 		}
-		public String getRitmo() {
-			return ritmo;
+		public String getId() {
+			return id;
 		}
-		public void setRitmo(String ritmo) {
-			this.ritmo = ritmo;
+		public void setId (String id) {
+			this.id = id;
 		}
 		
 		
-		public Musical(String tipo_instrumento, String instrumento, String ritmo) {
-			super();
-			this.tipo_instrumento = tipo_instrumento;
+		public Musical(String nome, String instrumento, String ritmo, String id) {
+			this.nome = nome;
 			this.instrumento = instrumento;
-			this.ritmo = ritmo;
+			this.id=id;
 		}
-
 		
+		
+
+	
+	
+		public Musical() {
+			// TODO Auto-generated constructor stub
+		}
+		public Musical(String text, String text2) {
+			// TODO Auto-generated constructor stub
+		}
 		public void missa_comentario() {
 			System.out.println("O PADRE ADORA OS SONS DESTES INSTRUMENTOS!");
 		}
@@ -58,7 +67,7 @@ public class Musical {
 		}
 		
 		public void missa_comentario_6() {
-			System.out.println("EM HIPÓTESE ALGUMA DEVEMOS TOCAR ESTE RITMO !");
+			System.out.println("EM HIPÓTESE ALGUMA DEVEMOS TOCAR NESTE RITMO !");
 		}
 		
 		public void missa_comentario_7() {

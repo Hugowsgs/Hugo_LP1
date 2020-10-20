@@ -6,7 +6,7 @@ public class Metodos_musical {
 
 	public static void main(String[] args) {
 		
-		Musical Missa = new Musical(JOptionPane.showInputDialog("Digite o número conforme tipo de instrumento a ser usado (1 - Sopro / 2 - Cordas / 3 - Percurssão"), JOptionPane.showInputDialog("Digite o instrumento a ser usado: "), JOptionPane.showInputDialog("Digite o número conforme o ritmo a ser usado (1 - VALSA / 2 - FUNK / 3 - SAMBA ENREDO)"));
+		Musical Missa = new Musical(JOptionPane.showInputDialog("Digite o número conforme tipo de instrumento a ser usado (1 - Sopro / 2 - Cordas / 3 - Percurssão"), JOptionPane.showInputDialog("Digite o instrumento a ser usado: "), JOptionPane.showInputDialog("Digite o número conforme o ritmo a ser usado (1 - VALSA / 2 - FUNK / 3 - SAMBA ENREDO)"), 1);
 	
 		Missa.getTipo_instrumento();
 		Missa.getInstrumento();
